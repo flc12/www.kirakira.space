@@ -5,6 +5,7 @@ $params = require(__DIR__ . '/params.php');
 $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
+    'vendorPath' => dirname(dirname(__DIR__)) . DIRECTORY_SEPARATOR . 'yii2framework' . DIRECTORY_SEPARATOR . 'vendor',
     'bootstrap' => ['log'],
     'components' => [
         'request' => [
